@@ -8,3 +8,8 @@ Este repositorio tiene los archivos de la página web del colegio. Si eres estud
 - 📁 Desarrollado en HTML y CSS con Boostrap v5.1
 - 🗃️ Todos los archivos en este repositorio son propiedad del colegio.
 - ❤️ Hecho con amor (Lovin Coding)
+
+# Acerca del Desarrollador
+- Octavio Enrique Morales García
+- 🧑🏻‍🏫 Docente del Centro en el área de programación y administrador de TI.
+- 👨🏻‍💻 Ing. De Sistemas
