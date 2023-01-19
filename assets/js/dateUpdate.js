@@ -1,2 +1,2 @@
 //Actualizar el año del copyright
-$('#year').text(new Date().getFullYear());
+document.getElementById("year").innerHTML = new Date().getFullYear();
