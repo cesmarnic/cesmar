@@ -20,12 +20,17 @@
 <body>
 
     <nav class="navbar navbar-dark navbar-expand-md bg-dark py-3">
-        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span
-                    class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><img
-                        class="img-fluid" src="assets/img/white_Maria.png"></span><span>Centro Educativo Sor María
-                    Romero</span></a><button data-bs-toggle="collapse" class="navbar-toggler"
-                data-bs-target="#navcol-5"><span class="visually-hidden">Toggle navigation</span><span
-                    class="navbar-toggler-icon"></span></button>
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon">
+                    <img class="img-fluid" src="assets/img/white_Maria.png">
+                </span>
+                <span>Centro Educativo Sor María Romero</span>
+            </a>
+            <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-5">
+                <span class="visually-hidden">Toggle navigation</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navcol-5">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link text-info" href="index.html">Inicio</a></li>
@@ -40,6 +45,9 @@
    
     <div class="container-fluid bg-dark">
 
+        <div class="container-fluid text-center">
+            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fcesmarnic%2Fposts%2Fpfbid0TtH8siJEFg7taPo4RuCUHr9L1LHBRiSXGZPw52fRpQRGuZkGzQHnXDUr27vYmtkQl&show_text=false&width=500" width="500" height="419" style="border-radius:5px;border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -202,7 +210,7 @@
                     </div>
                 </div>
             </div>
-            <p class="text-muted mb-0">Copyright © 2022 Centro Educativo Sor María Romero</p>
+            <p class="text-muted mb-0">Copyright © <label id="year"></label> Centro Educativo Sor María Romero</p>
         </div>
     </footer>
     <!-- Messenger Plugin de chat Code -->
@@ -237,6 +245,7 @@
     </script>
     <!-- Fin del footer -->
     <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/dateUpdate.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
