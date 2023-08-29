@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es-419">
+<html lang="es-419" data-bs-theme="light">
 
 <head>
     <meta charset="utf-8">
@@ -14,10 +14,11 @@
 </head>
 
 <body>
+    <!-- Inicio del header -->
     <div class="container">
         <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-            <div class="col-md-3 mb-2 mb-md-0">
-                <a class="d-inline-flex link-body-emphasis text-decoration-none" asp-area="" asp-page="/Index">
+            <div class="col-md-3 mb-2 mb-md-0 ms-2">
+                <a class="d-inline-flex link-body-emphasis text-decoration-none" href="../index.html">
                     <img src="../assets/img/shield.png" alt="shield" width="32" height="32" />
                 </a>
             </div>
@@ -30,31 +31,34 @@
             </ul>
 
             <div class="col-md-3 text-end">
-                <button type="button" class="btn btn-light-primary me-2"><span><i class="bi bi-brightness-high-fill"></i></span></button>
-                <a class="btn btn-outline-primary" href="https://login.microsoftonline.com/?whr=cesmar.edu.ni&ui_locales=es&mkt=es_es">Office 365</a>
+                <button id="btnTheme" type="button" class="btn btn-outline-dark me-2"><span><i id="themeIcon" class="bi bi-brightness-high-fill"></i></span></button>
+                <a class="btn btn-outline-primary me-2" href="https://login.microsoftonline.com/?whr=cesmar.edu.ni&ui_locales=es&mkt=es_es">Office 365</a>
             </div>
         </header>
     </div>
+    <!-- Fin del header -->
 
-    <div class="container-fluid">
-        <div class="container py-4 py-xl-5">
-            <div class="row mb-5">
-                <div class="col text-center mx-auto">
-                    <h2>Centro Educativo Sor María Romero</h2>
-                    <p class="w-lg-50">Página Web en Construcción</p>
-                    <div>
-                        <img class="img-fluid" src="../assets/img/cyborg-107.svg" alt="Construction" width="512px" height="auto">
-                    </div>
-                </div>
-                <div class="col text-center mx-auto">
-                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcesmarnic%2F&tabs=timeline&width=500&height=750&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                            width="500" height="750" scrolling="no" frameborder="0" class="rounded-1"
-                            allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-                    </iframe>
-                </div>
-            </div>
-        </div>
+    <!--Area de Contacto-->
+    <div class="container">
+        <h2 class="fw-semibold text-center">Envianos un mensaje</h2>
+        <div id="formkeep-embed" data-formkeep-url="https://formkeep.com/p/af798dd980524c6d3d8544eff74bd2d7?embedded=1"></div>
     </div>
+
+    <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+    <script type="text/javascript" src="https://formkeep-production-herokuapp-com.global.ssl.fastly.net/formkeep-embed.js"></script>
+    <!-- Get notified when the form is submitted, add your own code below: -->
+    <script>
+    const formkeepEmbed = document.querySelector('#formkeep-embed')
+
+    formkeepEmbed.addEventListener('formkeep-embed:submitting', _event => {
+    console.log('Submitting form...')
+    })
+
+    formkeepEmbed.addEventListener('formkeep-embed:submitted', _event => {
+    console.log('Submitted form...')
+    })
+    </script>
+    <!--Fin del area de contacto-->
 
     <!-- Inicio del footer -->
     <footer class="pt-lg-10 pt-5 border-top">
@@ -173,7 +177,7 @@
       }(document, 'script', 'facebook-jssdk'));
     </script>
     <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/js/dateUpdate.js"></script>
+    <script src="../assets/js/themeChange.js"></script>
     <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 

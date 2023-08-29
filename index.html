@@ -16,23 +16,23 @@
 <body>
 
     <div class="container">
-        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-            <div class="col-md-3 mb-2 mb-md-0">
-                <a class="d-inline-flex link-body-emphasis text-decoration-none" asp-area="" asp-page="/Index">
+        <header class="d-flex flex-wrap align-items-center rounded justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+            <div class="col-md-3 mb-2 mb-md-0 ms-2">
+                <a class="d-inline-flex link-body-emphasis text-decoration-none" href="index.html">
                     <img src="assets/img/shield.png" alt="shield" width="32" height="32" />
                 </a>
             </div>
 
             <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                <li><a class="nav-link px-2" href="index.html">Inicio</a></li>
-                <li><a class="nav-link px-2" href="pages/about.html">Nosotros</a></li>
-                <li><a class="nav-link px-2" href="pages/images.html">Imágenes</a></li>
-                <li><a class="nav-link px-2" href="pages/contact.html">Contacto</a></li>
+                <li class="nav-item"><a class="nav-link px-2 link-secondary" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link px-2" href="pages/about.html">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link px-2" href="pages/images.html">Imágenes</a></li>
+                <li class="nav-item"><a class="nav-link px-2" href="pages/contact.html">Contacto</a></li>
             </ul>
 
-            <div class="col-md-3 text-end">
-                <button type="button" class="btn btn-light-primary me-2"><span><i class="bi bi-brightness-high-fill"></i></span></button>
-                <a class="btn btn-outline-primary" href="https://login.microsoftonline.com/?whr=cesmar.edu.ni&ui_locales=es&mkt=es_es">Office 365</a>
+            <div class="col-md-3 text-end me-2">
+                <button id="btnTheme" type="button" class="btn btn-outline-dark me-2"><span><i id="themeIcon" class="bi bi-brightness-high-fill"></i></span></button>
+                <a class="btn btn-outline-secondary" href="https://login.microsoftonline.com/?whr=cesmar.edu.ni&ui_locales=es&mkt=es_es">Office 365</a>
             </div>
         </header>
     </div>
@@ -230,7 +230,7 @@
     </script>
     <!-- Fin del footer -->
     <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/dateUpdate.js"></script>
+    <script src="assets/js/themeChange.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 

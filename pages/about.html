@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es-419">
+<html lang="es-419" data-bs-theme="light">
 
 <head>
     <meta charset="utf-8">
@@ -18,8 +18,8 @@
     <!-- Barra de Navegación -->
     <div class="container">
         <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-            <div class="col-md-3 mb-2 mb-md-0">
-                <a class="d-inline-flex link-body-emphasis text-decoration-none" asp-area="" asp-page="/Index">
+            <div class="col-md-3 mb-2 mb-md-0 ms-2">
+                <a class="d-inline-flex link-body-emphasis text-decoration-none" href="../index.html">
                     <img src="../assets/img/shield.png" alt="shield" width="32" height="32" />
                 </a>
             </div>
@@ -32,15 +32,15 @@
             </ul>
 
             <div class="col-md-3 text-end">
-                <button type="button" class="btn btn-light-primary me-2"><span><i class="bi bi-brightness-high-fill"></i></span></button>
-                <a class="btn btn-outline-primary" href="https://login.microsoftonline.com/?whr=cesmar.edu.ni&ui_locales=es&mkt=es_es">Office 365</a>
+                <button id="btnTheme" type="button" class="btn btn-outline-dark me-2"><span><i id="themeIcon" class="bi bi-brightness-high-fill"></i></span></button>
+                <a class="btn btn-outline-primary me-2" href="https://login.microsoftonline.com/?whr=cesmar.edu.ni&ui_locales=es&mkt=es_es">Office 365</a>
             </div>
         </header>
     </div>
     <!-- Fin del NavBar -->
 
     <!-- Contenido -->
-    <div class="container-fluid bg-dark">
+    <div class="container-fluid">
 
         <!-- Titulo Superior del Contenido-->
         <div class="container pt-4 pt-xl-5">
@@ -56,7 +56,7 @@
             </div>
             <div class="row ">
                 <div class="col text-center mx-auto">
-                    <h2 class="text-primary">Generación Docentes 2022</h2>
+                    <h2 class="">Generación Docentes 2022</h2>
                     <img src="../assets/img/cesmar22.jpg" alt="" class="img-fluid">
                 </div>
             </div>
@@ -81,7 +81,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Preescolar/01_ Fania Ortiz.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Lic. Fania Raquel Ortiz Hernandez</h5>
+                            <h5 class="fw-bold  card-title mb-0">Lic. Fania Raquel Ortiz Hernandez</h5>
                             <p class="text-muted card-text mb-2">Coordinadora del area de Preescolar</p>
                         </div>
                     </div>
@@ -91,7 +91,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Preescolar/02_ Valeska Castro.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Valeska Castro Pérez</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Valeska Castro Pérez</h5>
                             <p class="text-muted card-text mb-2">Maestra del Aula A</p>
                         </div>
                     </div>
@@ -101,7 +101,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Preescolar/03_ Flor Mendoza.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Flor Mendoza Avellán</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Flor Mendoza Avellán</h5>
                             <p class="text-muted card-text mb-2">Maestra del Aula B</p>
                         </div>
                     </div>
@@ -111,7 +111,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Preescolar/04_ Monica Solís.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Monica Solís Arce</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Monica Solís Arce</h5>
                             <p class="text-muted card-text mb-2">Maestra del Aula C</p>
                         </div>
                     </div>
@@ -121,7 +121,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Preescolar/08_Katherine Blancdón.jpg" width="130"
                                 height="130" class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Katherine del Socorro Blandón Guzmán
+                            <h5 class="fw-bold  card-title mb-0">Prof. Katherine del Socorro Blandón Guzmán
                             </h5>
                             <p class="text-muted card-text mb-2">Maestra del Aula D</p>
                         </div>
@@ -136,7 +136,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Primaria/00_ Karla Sanchez.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Lic. Karla Vanessa Sánchez Narváez</h5>
+                            <h5 class="fw-bold  card-title mb-0">Lic. Karla Vanessa Sánchez Narváez</h5>
                             <p class="text-muted card-text mb-2">Coordinadora del area de Primaria</p>
                         </div>
                     </div>
@@ -146,7 +146,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Primaria/01_ Nela Vega.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Maria Nela Vega Vega</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Maria Nela Vega Vega</h5>
                             <p class="text-muted card-text mb-2">Maestra Guía - 1er Grado A</p>
                         </div>
                     </div>
@@ -156,7 +156,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Primaria/02_ Martha Mejía.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Martha Mejía Hernandez</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Martha Mejía Hernandez</h5>
                             <p class="text-muted card-text mb-2">Maestra Guía - 1er Grado B</p>
                         </div>
                     </div>
@@ -166,7 +166,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Primaria/04_Dianne Michelle.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Dianne Michelle Espinoza</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Dianne Michelle Espinoza</h5>
                             <p class="text-muted card-text mb-2">Maestra Guía - 2do Grado A</p>
                         </div>
                     </div>
@@ -176,7 +176,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Primaria/03_ Mareling Saravia.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof.Marelyng Sarybell Campos Saravia</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof.Marelyng Sarybell Campos Saravia</h5>
                             <p class="text-muted card-text mb-2">Maestra Guía - 2do Grado B</p>
                         </div>
                     </div>
@@ -186,7 +186,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Primaria/05_ Maritza Jirón.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Maritza Jirón Poveda</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Maritza Jirón Poveda</h5>
                             <p class="text-muted card-text mb-2">Maestra Guía - 3er Grado A</p>
                         </div>
                     </div>
@@ -196,7 +196,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Primaria/06_Ana María.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Ana María Laguna Bonilla</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Ana María Laguna Bonilla</h5>
                             <p class="text-muted card-text mb-2">Mestra Guía - 3er Grado B</p>
                         </div>
                     </div>
@@ -206,7 +206,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Primaria/08_ Verania Salgado.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Diega Verania Salgado Pérez</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Diega Verania Salgado Pérez</h5>
                             <p class="text-muted card-text mb-2">Mestra Guía - 4to Grado A</p>
                         </div>
                     </div>
@@ -216,7 +216,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Primaria/07_ Madeling.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Madeling Adriana Reyes Hernández</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Madeling Adriana Reyes Hernández</h5>
                             <p class="text-muted card-text mb-2">Mestra Guía - 4to Grado B</p>
                         </div>
                     </div>
@@ -226,7 +226,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Primaria/09_ Michelle Lucero.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Michelle de los Ángeles Lucero Suarez
+                            <h5 class="fw-bold  card-title mb-0">Prof. Michelle de los Ángeles Lucero Suarez
                             </h5>
                             <p class="text-muted card-text mb-2">Mestra Guía - 5to Grado A</p>
                         </div>
@@ -237,7 +237,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Primaria/10_ Maribel.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Maribel del Carmen Rodriguez Obando
+                            <h5 class="fw-bold  card-title mb-0">Prof. Maribel del Carmen Rodriguez Obando
                             </h5>
                             <p class="text-muted card-text mb-2">Mestra Guía - 5to Grado B</p>
                         </div>
@@ -248,7 +248,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Primaria/11_ Reyna Roblero.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Reyna del Socorro Roblero Vargas</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Reyna del Socorro Roblero Vargas</h5>
                             <p class="text-muted card-text mb-2">Mestra Guía - 6to Grado A</p>
                         </div>
                     </div>
@@ -258,7 +258,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Primaria/12_.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Laura Carolina Rodriguez Obando</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Laura Carolina Rodriguez Obando</h5>
                             <p class="text-muted card-text mb-2">Mestra Guía - 6to Grado B</p>
                         </div>
                     </div>
@@ -267,7 +267,7 @@
                     <div class="card-body text-center d-flex flex-column align-items-center p-0">
                         <img src="../assets/img/personal/Secundaria/09_ Maria José.jpg" width="130" height="130"
                             class="rounded-circle mb-3 fit-cover">
-                        <h5 class="fw-bold text-primary card-title mb-0">Prof. María José Hernandez Fariñas</h5>
+                        <h5 class="fw-bold  card-title mb-0">Prof. María José Hernandez Fariñas</h5>
                         <p class="text-muted card-text mb-2">
                             Docente Guía - 8vo Grado B<br>
                             <i class="bi bi-translate"> </i>Inglés
@@ -279,7 +279,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Primaria/14_ Juan José.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Juán José Álvarez Hernandez</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Juán José Álvarez Hernandez</h5>
                             <p class="text-muted card-text mb-2">Docente de Computación</p>
                         </div>
                     </div>
@@ -293,7 +293,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Preescolar/06_ Kenia Alemán.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Kenia Patricia Alemán Castellón</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Kenia Patricia Alemán Castellón</h5>
                             <p class="text-muted card-text mb-2">
                                 Docente Guía - 7mo Grado A<br>
                                 <i class="bi bi-translate"> </i>Inglés Preescolar y 7mos Grados
@@ -306,7 +306,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Secundaria/01_ Reymer Huembes.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Reymer Ariel Huembes</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Reymer Ariel Huembes</h5>
                             <p class="text-muted card-text mb-2">
                                 Docente Guía - 7mo Grado B<br>
                                 <i class="bi bi-thermometer-sun"> </i>Física y Ciencias
@@ -319,7 +319,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Secundaria/03_ Edu Jarquín.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Edu Dyvari Jarquín Mendoza</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Edu Dyvari Jarquín Mendoza</h5>
                             <p class="text-muted card-text mb-2">
                                 Docente Guía - 8vo Grado A<br>
                                 <i class="bx bx-swim"> </i>Natación
@@ -332,7 +332,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Secundaria/09_ Maria José.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. María José Hernandez Fariñas</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. María José Hernandez Fariñas</h5>
                             <p class="text-muted card-text mb-2">
                                 Docente Guía - 8vo Grado B<br>
                                 <i class="bi bi-music-note-beamed"> </i>Danza
@@ -345,7 +345,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Secundaria/17_Rosa Canales.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Rosa Amanda Canales</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Rosa Amanda Canales</h5>
                             <p class="text-muted card-text mb-2">
                                 Docente Guía - 9no Grado A<br>
                                 <i class="bi bi-radioactive"> </i>Química y Biología
@@ -361,7 +361,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Secundaria/04_ Marlene Corea.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Marlene del Socorro Corea Solorzano
+                            <h5 class="fw-bold  card-title mb-0">Prof. Marlene del Socorro Corea Solorzano
                             </h5>
                             <p class="text-muted card-text mb-2">
                                 Docente Guía - 10mos Grados<br>
@@ -375,7 +375,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Secundaria/11_ Aura Rayo.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Aura Daniela Rayo Zamora</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Aura Daniela Rayo Zamora</h5>
                             <p class="text-muted card-text mb-2">
                                 Docente Guía - 11mos Grados<br>
                                 <i class="bi bi-people-fill"> </i>Ciencias Sociales
@@ -388,7 +388,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Secundaria/12_ José Rizo.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. José Alberto Rizo Pérez</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. José Alberto Rizo Pérez</h5>
                             <p class="text-muted card-text mb-2">
                                 Docente de Lengua y Literatura<br>
                                 <i class='bx bx-book'></i>
@@ -401,7 +401,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Secundaria/10_ Sandra Matamoros.jpg" width="130"
                                 height="130" class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Sandra María Matamoros Montenegro
+                            <h5 class="fw-bold  card-title mb-0">Prof. Sandra María Matamoros Montenegro
                             </h5>
                             <p class="text-muted card-text mb-2">
                                 Docente de Lengua y Literatura<br>
@@ -415,7 +415,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Secundaria/18_Alexa Jarquín.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Alexa Walquiria Jarquín Cabrera</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Alexa Walquiria Jarquín Cabrera</h5>
                             <p class="text-muted card-text mb-2">
                                 Docente de Inglés<br>
                                 <i class="bi bi-translate"></i>
@@ -428,7 +428,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Secundaria/07_ Rayder Estrella.jpg" width="130"
                                 height="130" class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Rayder Javier Estrella López</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Rayder Javier Estrella López</h5>
                             <p class="text-muted card-text mb-2">
                                 Docente de Inglés<br>
                                 <i class="bi bi-translate"></i>
@@ -441,7 +441,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Secundaria/14_ Fernanda Zeledón.jpg" width="130"
                                 height="130" class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Fernanda Azucena Zeledón Cruz</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Fernanda Azucena Zeledón Cruz</h5>
                             <p class="text-muted card-text mb-2">
                                 Docente de Inglés<br>
                                 <i class="bi bi-translate"></i>
@@ -454,7 +454,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Secundaria/08_ Osmar Reyes.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Osmar Rafael Tellez Mejía</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Osmar Rafael Tellez Mejía</h5>
                             <p class="text-muted card-text mb-2">
                                 Docente de Matemática<br>
                                 <i class="bi bi-calculator"></i>
@@ -467,7 +467,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Secundaria/13_ Luis Martinez.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Luis Alberto Martinez</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Luis Alberto Martinez</h5>
                             <p class="text-muted card-text mb-2">
                                 Docente de Matemática<br>
                                 <i class="bi bi-calculator"></i>
@@ -480,7 +480,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Secundaria/06_ Ernesto Areglys.jpg" width="130"
                                 height="130" class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Ernesto Argenis Narváez Villavicencio
+                            <h5 class="fw-bold  card-title mb-0">Prof. Ernesto Argenis Narváez Villavicencio
                             </h5>
                             <p class="text-muted card-text mb-2">
                                 Docente de EEFF<br>
@@ -494,7 +494,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Secundaria/15_ William Mendoza.jpg" width="130"
                                 height="130" class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. William José Mendoza Reyes</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. William José Mendoza Reyes</h5>
                             <p class="text-muted card-text mb-2">
                                 Docente de EEFF<br>
                                 <i class="bx bx-run"></i>
@@ -507,7 +507,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Secundaria/16_ Jafet.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Jafet Eli Sirias Pérez</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Jafet Eli Sirias Pérez</h5>
                             <p class="text-muted card-text mb-2">
                                 Docente de Ciencias Sociales<br>
                                 <i class="bi bi-people-fill"></i>
@@ -520,7 +520,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Secundaria/02_ Ana Yanci Vargas.jpg" width="130"
                                 height="130" class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Ana Yanci Vargas</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Ana Yanci Vargas</h5>
                             <p class="text-muted card-text mb-2">
                                 Psicología<br>
                                 <i class="bi bi-suit-club-fill"></i>
@@ -533,7 +533,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Secundaria/05_ Octavio Morales.jpg" width="130"
                                 height="130" class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Prof. Octavio Enrique Morales</h5>
+                            <h5 class="fw-bold  card-title mb-0">Prof. Octavio Enrique Morales</h5>
                             <p class="text-muted card-text mb-2">
                                 Docente de Programación<br>Administrador TI
                             <ul class="list-inline text-muted">
@@ -588,7 +588,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Hermanas/SorEliaFlores.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Sor Elia Maria Flores</h5>
+                            <h5 class="fw-bold  card-title mb-0">Sor Elia Maria Flores</h5>
                             <p class="text-muted card-text mb-2">
                                 Hermana Directora
                             </p>
@@ -601,7 +601,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Hermanas/SorIngrid.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Sor Ingrid Casasola</h5>
+                            <h5 class="fw-bold  card-title mb-0">Sor Ingrid Casasola</h5>
                             <p class="text-muted card-text mb-2">
                                 Hermana Coordinadora
                             </p>
@@ -613,7 +613,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Hermanas/SorMariaAux.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Sor Mº Auxiliadora Morales</h5>
+                            <h5 class="fw-bold  card-title mb-0">Sor Mº Auxiliadora Morales</h5>
                             <p class="text-muted card-text mb-2">
                                 Hermana Docente de Religión - MJS
                             </p>
@@ -625,7 +625,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Hermanas/SorMarianela.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Sor Marianela Solís Urbina</h5>
+                            <h5 class="fw-bold  card-title mb-0">Sor Marianela Solís Urbina</h5>
                             <p class="text-muted card-text mb-2">
                                 Hermana Docente de Religión - Guía de 9no Grado B
                             </p>
@@ -637,7 +637,7 @@
                         <div class="card-body text-center d-flex flex-column align-items-center p-0">
                             <img src="../assets/img/personal/Hermanas/SorSoniaLopez.jpg" width="130" height="130"
                                 class="rounded-circle mb-3 fit-cover">
-                            <h5 class="fw-bold text-primary card-title mb-0">Sor Sonia López Gonzalez</h5>
+                            <h5 class="fw-bold  card-title mb-0">Sor Sonia López Gonzalez</h5>
                             <p class="text-muted card-text mb-2">
                                 Hermana Vicaria
                             </p>
@@ -766,7 +766,7 @@
         }(document, 'script', 'facebook-jssdk'));
     </script>
     <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/js/dateUpdate.js"></script>
+    <script src="../assets/js/themeChange.js"></script>
     <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
