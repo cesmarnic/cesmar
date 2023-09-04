@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es-419" data-bs-theme="light">
+<html lang="es-419" data-bs-theme="dark">
 
 <head>
     <meta charset="utf-8">
@@ -40,8 +40,8 @@
             </ul>
 
             <div class="col-md-3 text-end">
-                <button type="button" class="btn btn-light-primary me-2"><span><i class="bi bi-brightness-high-fill"></i></span></button>
-                <a class="btn btn-outline-primary" href="https://login.microsoftonline.com/?whr=cesmar.edu.ni&ui_locales=es&mkt=es_es">Office 365</a>
+                <button id="btnTheme" type="button" class="btn btn-outline-dark me-2"><span><i id="themeIcon" class="bi bi-brightness-high-fill"></i></span></button>
+                <a class="btn btn-outline-primary me-2" href="https://login.microsoftonline.com/?whr=cesmar.edu.ni&ui_locales=es&mkt=es_es">Office 365</a>
             </div>
         </header>
     </div>
@@ -135,7 +135,7 @@
                             </span>
                         </div>
                         <div>
-                            <a class="text-decoration-none me-4 text-muted" asp-area="" asp-page="/Privacy">Politicas de Privacidad</a>
+                            <a class="text-decoration-none me-4 text-muted" href="privacy.html">Politicas de Privacidad</a>
                         </div>
                     </div>
                     
@@ -175,7 +175,7 @@
       }(document, 'script', 'facebook-jssdk'));
     </script>
     <script src="../assets/js/jquery.min.js"></script>
-    <script src="../assets/js/dateUpdate.js"></script>
+    <script src="../assets/js/themeChange.js"></script>
     <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
