@@ -1,0 +1,275 @@
+{
+    "Preescolar": [
+        {
+            "nombre": "Lic. Fania Ortiz",
+            "cargo": "Coordinadora",
+            "materia": null,
+            "foto": "../assets/img/preescolar/fania.jpg"
+        },
+        {
+            "nombre": "Valeska Castro",
+            "cargo": "Maestra - Aula A",
+            "materia": null,
+            "foto": "../assets/img/preescolar/valeska.jpg"
+        },
+        {
+            "nombre": "Daysi Montiel",
+            "cargo": "Maestra - Aula B",
+            "materia": null,
+            "foto": "../assets/img/preescolar/daysi.jpg"
+        },
+        {
+            "nombre": "Arlen Zúñiga",
+            "cargo": "Maestra - Aula C",
+            "materia": null,
+            "foto": "../assets/img/preescolar/arlen.jpg"
+        },
+        {
+            "nombre": "Tatiana Serrano",
+            "cargo": "Maestra - Aula D",
+            "materia": null,
+            "foto": "../assets/img/preescolar/tatiana.jpg"
+        }
+    ],
+    "Primaria":[
+        {
+            "nombre": "Lic. Karla Sanchez",
+            "cargo": "Coordinadora",
+            "materia": null,
+            "foto": "../assets/img/primaria/karla.jpg"
+        },
+        {
+            "nombre": "Matha Mejía",
+            "cargo": "Maestra - 1° Grado A",
+            "materia": null,
+            "foto": "../assets/img/primaria/matha.jpg"
+        },
+        {
+            "nombre": "Maribel Rodriguez",
+            "cargo": "Maestra - 1° Grado B",
+            "materia": null,
+            "foto": "../assets/img/primaria/maribel.jpg"
+        },
+        {
+            "nombre": "Mareling Saribel",
+            "cargo": "Maestra - 2° Grado A",
+            "materia": null,
+            "foto": "../assets/img/primaria/mareling.jpg"
+        },
+        {
+            "nombre": "Andrea Reyes",
+            "cargo": "Maestra - 2° Grado B",
+            "materia": null,
+            "foto": "../assets/img/primaria/andrea.jpg"
+        },
+        {
+            "nombre": "Verania Salgado",
+            "cargo": "Maestra - 3° Grado A",
+            "materia": null,
+            "foto": ".../assets/img/primaria/verania.jpg"
+        },
+        {
+            "nombre": "Maritza Jirón",
+            "cargo": "Maestra - 3° Grado B",
+            "materia": null,
+            "foto": "../assets/img/primaria/maritza.jpg"
+        },
+        {
+            "nombre": "Zuleyka Talavera",
+            "cargo": "Maestra - 4° Grado A",
+            "materia": null,
+            "foto": "../assets/img/primaria/zuleyka.jpg"
+        },
+        {
+            "nombre": "Maria Solis",
+            "cargo": "Maestra - 4° Grado B",
+            "materia": null,
+            "foto": "../assets/img/primaria/maria.jpg"
+        },
+        {
+            "nombre": "Ana Maria Laguna",
+            "cargo": "Maestra - 5° Grado A",
+            "materia": null,
+            "foto": "../assets/img/primaria/ana.jpg"
+        },
+        {
+            "nombre": "Diane Espinoza",
+            "cargo": "Maestra - 5° Grado B",
+            "materia": null,
+            "foto": "../assets/img/primaria/diane.jpg"
+        },
+        {
+            "nombre": "Michell Suarez",
+            "cargo": "Maestra - 6° Grado A",
+            "materia": null,
+            "foto": "../assets/img/primaria/michell.jpg"
+        },
+        {
+            "nombre": "Vanessa Gutierrez",
+            "cargo": "Maestra - 6° Grado B",
+            "materia": null,
+            "foto": "../assets/img/primaria/vanessa.jpg"
+        },
+        {
+            "nombre": "Anielka Zeledón",
+            "cargo": null,
+            "materia": "Computación 💻",
+            "foto": "../assets/img/primaria/anielka.jpg"
+        },
+        {
+            "nombre": "Roger Taylor",
+            "cargo": null,
+            "materia": "Musica 🎼",
+            "foto": "../assets/img/primaria/roger.jpg"
+        }
+    ],
+    "Secundaria":[
+        {
+            "nombre": "Rosita Duarte",
+            "cargo": "Guía - 7° Grado A",
+            "materia": "Danza 🕺🏻",
+            "foto": "../assets/img/secundaria/rosita.jpg"
+        },
+        {
+            "nombre": "Reyna Roblero",
+            "cargo": "Guía - 7° Grado B",
+            "materia": "Lengua y Literatura 🔤",
+            "foto": "../assets/img/secundaria/reyna.jpg"
+        },
+        {
+            "nombre": "Marlene Corea",
+            "cargo": "Guía - 8°s Grado / Trabajadora Social",
+            "materia": "Filosofía - Sociología 🤔",
+            "foto": "../assets/img/secundaria/marlene.jpg"
+        },
+        {
+            "nombre": "Ma. José Hernandez",
+            "cargo": "Guía - 9° Grado A",
+            "materia": "Danza 🕺🏻",
+            "foto": "../assets/img/secundaria/maria.jpg"
+        },
+        {
+            "nombre": "Edu Jarquín",
+            "cargo": "Guía - 9° Grado B",
+            "materia": "Natación 🏊🏻‍♂️",
+            "foto": "../assets/img/secundaria/edu.jpg"
+        },
+        {
+            "nombre": "Johni Urbina",
+            "cargo": "Guía - 10° Grado A",
+            "materia": "Quimica / Bioloia 🧪",
+            "foto": "../assets/img/secundaria/johni.jpg"
+        },
+        {
+            "nombre": "José Rizo",
+            "cargo": "Guía - 10° Grado B",
+            "materia": "Lengua y Literatura 🔤",
+            "foto": "../assets/img/secundaria/jose.jpg"
+        },
+        {
+            "nombre": "Aura Rayo",
+            "cargo": "Guía - 11° Grado A",
+            "materia": "Sociales / Historia 🗺",
+            "foto": "../assets/img/secundaria/aura.jpg"
+        },
+        {
+            "nombre": "Octavio Morales",
+            "cargo": "Guía - 11° Grado B",
+            "materia": "Programacion 💻",
+            "foto": "../assets/img/secundaria/octavio.jpg"
+        },
+        {
+            "nombre": "Rodolfo Jimenez",
+            "cargo": null,
+            "materia": "Matemáticas 🧮",
+            "foto": "../assets/img/secundaria/rodolfo.jpg"
+        },
+        {
+            "nombre": "Roberto Sirias",
+            "cargo": null,
+            "materia": "Historia / Socailes 🗺",
+            "foto": "../assets/img/secundaria/roberto.jpg"
+        },
+        {
+            "nombre": "Luis Martinez",
+            "cargo": null,
+            "materia": "Matemáticas 🧮",
+            "foto": "../assets/img/secundaria/luis.jpg"
+        },
+        {
+            "nombre": "Johan Hurtado",
+            "cargo": null,
+            "materia": "Inglés 🗽",
+            "foto": "../assets/img/secundaria/johan.jpg"
+        },
+        {
+            "nombre": "Ana Carla Roa",
+            "cargo": null,
+            "materia": "Inglés 🗽",
+            "foto": "../assets/img/secundaria/ana.jpg"
+        },
+        {
+            "nombre": "---",
+            "cargo": null,
+            "materia": "Inglés 🗽",
+            "foto": "../assets/img/secundaria/ingles.jpg"
+        },
+        {
+            "nombre": "Reymer Huembes",
+            "cargo": null,
+            "materia": "Física / Ciencias 🔬",
+            "foto": "../assets/img/secundaria/reymer.jpg"
+        },
+        {
+            "nombre": "Ernesto Narváez",
+            "cargo": null,
+            "materia": "Educación Física 🏃🏻‍♂️",
+            "foto": "../assets/img/secundaria/ernesto.jpg"
+        },
+        {
+            "nombre": "William Mendoza",
+            "cargo": null,
+            "materia": "Educación Física 🏃🏻‍♂️",
+            "foto": "../assets/img/secundaria/william.jpg"
+        }
+    ],
+    "Hermanas":[
+        {
+            "nombre": "Sor Elia Flores",
+            "cargo": "Directora",
+            "materia": null,
+            "foto": "../assets/img/hermanas/S_elia.jpg"
+        },
+        {
+            "nombre": "Sor Ingrid Casasola",
+            "cargo": "Coordinadora",
+            "materia": null,
+            "foto": "../assets/img/hermanas/S_ingrid.jpg"
+        },
+        {
+            "nombre": "Sor Ma Auxiliadora Morales",
+            "cargo": null,
+            "materia": "Religión 🙏🏻",
+            "foto": "../assets/img/hermanas/S_auxi.jpg"
+        },
+        {
+            "nombre": "Sor Maria Nela Solís",
+            "cargo": null,
+            "materia": "Religión 🙏🏻",
+            "foto": "../assets/img/hermanas/S_nela.jpg"
+        },
+        {
+            "nombre": "Sor Sonia López",
+            "cargo": "Hermana Vicaria",
+            "materia": null,
+            "foto": "../assets/img/hermanas/S_sonia.jpg"
+        },
+        {
+            "nombre": "Sor Lucila",
+            "cargo": null,
+            "materia": null,
+            "foto": "../assets/img/hermanas/S_lucila.jpg"
+        }
+    ]
+}
+
