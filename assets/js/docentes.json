@@ -1,275 +1,274 @@
 {
+    "Hermanas": [
+        {
+            "cargo": "Directora",
+            "foto": "../assets/img/hermanas/S_elia.jpg",
+            "materia": null,
+            "nombre": "Sor Elia Flores"
+        },
+        {
+            "cargo": "Coordinadora",
+            "foto": "../assets/img/hermanas/S_ingrid.jpg",
+            "materia": null,
+            "nombre": "Sor Ingrid Casasola"
+        },
+        {
+            "cargo": null,
+            "foto": "../assets/img/hermanas/S_auxi.jpg",
+            "materia": "Religión 🙏🏻",
+            "nombre": "Sor Ma Auxiliadora Morales"
+        },
+        {
+            "cargo": null,
+            "foto": "../assets/img/hermanas/S_nela.jpg",
+            "materia": "Religión 🙏🏻",
+            "nombre": "Sor Maria Nela Solís"
+        },
+        {
+            "cargo": "Hermana Vicaria",
+            "foto": "../assets/img/hermanas/S_sonia.jpg",
+            "materia": null,
+            "nombre": "Sor Sonia López"
+        },
+        {
+            "cargo": null,
+            "foto": "../assets/img/hermanas/S_lucila.jpg",
+            "materia": null,
+            "nombre": "Sor Lucila"
+        }
+    ],
     "Preescolar": [
         {
-            "nombre": "Lic. Fania Ortiz",
             "cargo": "Coordinadora",
+            "foto": "../assets/img/preescolar/fania.jpg",
             "materia": null,
-            "foto": "../assets/img/preescolar/fania.jpg"
+            "nombre": "Lic. Fania Ortiz"
         },
         {
-            "nombre": "Valeska Castro",
             "cargo": "Maestra - Aula A",
+            "foto": "../assets/img/preescolar/valeska.jpg",
             "materia": null,
-            "foto": "../assets/img/preescolar/valeska.jpg"
+            "nombre": "Valeska Castro"
         },
         {
-            "nombre": "Daysi Montiel",
             "cargo": "Maestra - Aula B",
+            "foto": "../assets/img/preescolar/daysi.jpg",
             "materia": null,
-            "foto": "../assets/img/preescolar/daysi.jpg"
+            "nombre": "Daysi Montiel"
         },
         {
-            "nombre": "Arlen Zúñiga",
             "cargo": "Maestra - Aula C",
+            "foto": "../assets/img/preescolar/arlen.jpg",
             "materia": null,
-            "foto": "../assets/img/preescolar/arlen.jpg"
+            "nombre": "Arlen Zúñiga"
         },
         {
-            "nombre": "Tatiana Serrano",
             "cargo": "Maestra - Aula D",
+            "foto": "../assets/img/preescolar/tatiana.jpg",
             "materia": null,
-            "foto": "../assets/img/preescolar/tatiana.jpg"
+            "nombre": "Tatiana Serrano"
         }
     ],
-    "Primaria":[
+    "Primaria": [
         {
-            "nombre": "Lic. Karla Sanchez",
             "cargo": "Coordinadora",
+            "foto": "../assets/img/primaria/karla.jpg",
             "materia": null,
-            "foto": "../assets/img/primaria/karla.jpg"
+            "nombre": "Lic. Karla Sanchez"
         },
         {
-            "nombre": "Matha Mejía",
             "cargo": "Maestra - 1° Grado A",
+            "foto": "../assets/img/primaria/matha.jpg",
             "materia": null,
-            "foto": "../assets/img/primaria/matha.jpg"
+            "nombre": "Matha Mejía"
         },
         {
-            "nombre": "Maribel Rodriguez",
             "cargo": "Maestra - 1° Grado B",
+            "foto": "../assets/img/primaria/maribel.jpg",
             "materia": null,
-            "foto": "../assets/img/primaria/maribel.jpg"
+            "nombre": "Maribel Rodriguez"
         },
         {
-            "nombre": "Mareling Saribel",
             "cargo": "Maestra - 2° Grado A",
+            "foto": "../assets/img/primaria/mareling.jpg",
             "materia": null,
-            "foto": "../assets/img/primaria/mareling.jpg"
+            "nombre": "Mareling Saribel"
         },
         {
-            "nombre": "Andrea Reyes",
             "cargo": "Maestra - 2° Grado B",
+            "foto": "../assets/img/primaria/andrea.jpg",
             "materia": null,
-            "foto": "../assets/img/primaria/andrea.jpg"
+            "nombre": "Andrea Reyes"
         },
         {
-            "nombre": "Verania Salgado",
             "cargo": "Maestra - 3° Grado A",
+            "foto": ".../assets/img/primaria/verania.jpg",
             "materia": null,
-            "foto": ".../assets/img/primaria/verania.jpg"
+            "nombre": "Verania Salgado"
         },
         {
-            "nombre": "Maritza Jirón",
             "cargo": "Maestra - 3° Grado B",
+            "foto": "../assets/img/primaria/maritza.jpg",
             "materia": null,
-            "foto": "../assets/img/primaria/maritza.jpg"
+            "nombre": "Maritza Jirón"
         },
         {
-            "nombre": "Zuleyka Talavera",
             "cargo": "Maestra - 4° Grado A",
+            "foto": "../assets/img/primaria/zuleyka.jpg",
             "materia": null,
-            "foto": "../assets/img/primaria/zuleyka.jpg"
+            "nombre": "Zuleyka Talavera"
         },
         {
-            "nombre": "Maria Solis",
             "cargo": "Maestra - 4° Grado B",
+            "foto": "../assets/img/primaria/maria.jpg",
             "materia": null,
-            "foto": "../assets/img/primaria/maria.jpg"
+            "nombre": "Maria Solis"
         },
         {
-            "nombre": "Ana Maria Laguna",
             "cargo": "Maestra - 5° Grado A",
+            "foto": "../assets/img/primaria/ana.jpg",
             "materia": null,
-            "foto": "../assets/img/primaria/ana.jpg"
+            "nombre": "Ana Maria Laguna"
         },
         {
-            "nombre": "Diane Espinoza",
             "cargo": "Maestra - 5° Grado B",
+            "foto": "../assets/img/primaria/diane.jpg",
             "materia": null,
-            "foto": "../assets/img/primaria/diane.jpg"
+            "nombre": "Diane Espinoza"
         },
         {
-            "nombre": "Michell Suarez",
             "cargo": "Maestra - 6° Grado A",
+            "foto": "../assets/img/primaria/michell.jpg",
             "materia": null,
-            "foto": "../assets/img/primaria/michell.jpg"
+            "nombre": "Michell Suarez"
         },
         {
-            "nombre": "Vanessa Gutierrez",
             "cargo": "Maestra - 6° Grado B",
+            "foto": "../assets/img/primaria/vanessa.jpg",
             "materia": null,
-            "foto": "../assets/img/primaria/vanessa.jpg"
+            "nombre": "Vanessa Gutiérrez"
         },
         {
-            "nombre": "Anielka Zeledón",
             "cargo": null,
+            "foto": "../assets/img/primaria/anielka.jpg",
             "materia": "Computación 💻",
-            "foto": "../assets/img/primaria/anielka.jpg"
+            "nombre": "Anielka Zeledón"
         },
         {
-            "nombre": "Roger Taylor",
             "cargo": null,
+            "foto": "../assets/img/primaria/roger.jpg",
             "materia": "Musica 🎼",
-            "foto": "../assets/img/primaria/roger.jpg"
+            "nombre": "Roger Taylor"
         }
     ],
-    "Secundaria":[
+    "Secundaria": [
         {
-            "nombre": "Rosita Duarte",
             "cargo": "Guía - 7° Grado A",
+            "foto": "../assets/img/secundaria/rosita.jpg",
             "materia": "Danza 🕺🏻",
-            "foto": "../assets/img/secundaria/rosita.jpg"
+            "nombre": "Rosita Duarte"
         },
         {
-            "nombre": "Reyna Roblero",
             "cargo": "Guía - 7° Grado B",
+            "foto": "../assets/img/secundaria/reyna.jpg",
             "materia": "Lengua y Literatura 🔤",
-            "foto": "../assets/img/secundaria/reyna.jpg"
+            "nombre": "Reyna Roblero"
         },
         {
-            "nombre": "Marlene Corea",
             "cargo": "Guía - 8°s Grado / Trabajadora Social",
+            "foto": "../assets/img/secundaria/marlene.jpg",
             "materia": "Filosofía - Sociología 🤔",
-            "foto": "../assets/img/secundaria/marlene.jpg"
+            "nombre": "Marlene Corea"
         },
         {
-            "nombre": "Ma. José Hernandez",
             "cargo": "Guía - 9° Grado A",
+            "foto": "../assets/img/secundaria/maria.jpg",
             "materia": "Danza 🕺🏻",
-            "foto": "../assets/img/secundaria/maria.jpg"
+            "nombre": "Ma. José Hernandez"
         },
         {
-            "nombre": "Edu Jarquín",
             "cargo": "Guía - 9° Grado B",
+            "foto": "../assets/img/secundaria/edu.jpg",
             "materia": "Natación 🏊🏻‍♂️",
-            "foto": "../assets/img/secundaria/edu.jpg"
+            "nombre": "Edu Jarquín"
         },
         {
-            "nombre": "Johni Urbina",
             "cargo": "Guía - 10° Grado A",
+            "foto": "../assets/img/secundaria/johni.jpg",
             "materia": "Quimica / Bioloia 🧪",
-            "foto": "../assets/img/secundaria/johni.jpg"
+            "nombre": "Johni Urbina"
         },
         {
-            "nombre": "José Rizo",
             "cargo": "Guía - 10° Grado B",
+            "foto": "../assets/img/secundaria/jose.jpg",
             "materia": "Lengua y Literatura 🔤",
-            "foto": "../assets/img/secundaria/jose.jpg"
+            "nombre": "José Rizo"
         },
         {
-            "nombre": "Aura Rayo",
             "cargo": "Guía - 11° Grado A",
+            "foto": "../assets/img/secundaria/aura.jpg",
             "materia": "Sociales / Historia 🗺",
-            "foto": "../assets/img/secundaria/aura.jpg"
+            "nombre": "Aura Rayo"
         },
         {
-            "nombre": "Octavio Morales",
             "cargo": "Guía - 11° Grado B",
+            "foto": "../assets/img/secundaria/octavio.jpg",
             "materia": "Programacion 💻",
-            "foto": "../assets/img/secundaria/octavio.jpg"
+            "nombre": "Octavio Morales"
         },
         {
-            "nombre": "Rodolfo Jimenez",
             "cargo": null,
+            "foto": "../assets/img/secundaria/rodolfo.jpg",
             "materia": "Matemáticas 🧮",
-            "foto": "../assets/img/secundaria/rodolfo.jpg"
+            "nombre": "Rodolfo Jimenez"
         },
         {
-            "nombre": "Roberto Sirias",
             "cargo": null,
+            "foto": "../assets/img/secundaria/roberto.jpg",
             "materia": "Historia / Socailes 🗺",
-            "foto": "../assets/img/secundaria/roberto.jpg"
+            "nombre": "Roberto Sirias"
         },
         {
-            "nombre": "Luis Martinez",
             "cargo": null,
+            "foto": "../assets/img/secundaria/luis.jpg",
             "materia": "Matemáticas 🧮",
-            "foto": "../assets/img/secundaria/luis.jpg"
+            "nombre": "Luis Martinez"
         },
         {
-            "nombre": "Johan Hurtado",
             "cargo": null,
+            "foto": "../assets/img/secundaria/johan.jpg",
             "materia": "Inglés 🗽",
-            "foto": "../assets/img/secundaria/johan.jpg"
+            "nombre": "Johan Hurtado"
         },
         {
-            "nombre": "Ana Carla Roa",
             "cargo": null,
+            "foto": "../assets/img/secundaria/ana.jpg",
             "materia": "Inglés 🗽",
-            "foto": "../assets/img/secundaria/ana.jpg"
+            "nombre": "Ana Carla Roa"
         },
         {
-            "nombre": "---",
             "cargo": null,
+            "foto": "../assets/img/secundaria/ingles.jpg",
             "materia": "Inglés 🗽",
-            "foto": "../assets/img/secundaria/ingles.jpg"
+            "nombre": "---"
         },
         {
-            "nombre": "Reymer Huembes",
             "cargo": null,
+            "foto": "../assets/img/secundaria/reymer.jpg",
             "materia": "Física / Ciencias 🔬",
-            "foto": "../assets/img/secundaria/reymer.jpg"
+            "nombre": "Reymer Huembes"
         },
         {
-            "nombre": "Ernesto Narváez",
             "cargo": null,
+            "foto": "../assets/img/secundaria/ernesto.jpg",
             "materia": "Educación Física 🏃🏻‍♂️",
-            "foto": "../assets/img/secundaria/ernesto.jpg"
+            "nombre": "Ernesto Narváez"
         },
         {
-            "nombre": "William Mendoza",
             "cargo": null,
+            "foto": "../assets/img/secundaria/william.jpg",
             "materia": "Educación Física 🏃🏻‍♂️",
-            "foto": "../assets/img/secundaria/william.jpg"
-        }
-    ],
-    "Hermanas":[
-        {
-            "nombre": "Sor Elia Flores",
-            "cargo": "Directora",
-            "materia": null,
-            "foto": "../assets/img/hermanas/S_elia.jpg"
-        },
-        {
-            "nombre": "Sor Ingrid Casasola",
-            "cargo": "Coordinadora",
-            "materia": null,
-            "foto": "../assets/img/hermanas/S_ingrid.jpg"
-        },
-        {
-            "nombre": "Sor Ma Auxiliadora Morales",
-            "cargo": null,
-            "materia": "Religión 🙏🏻",
-            "foto": "../assets/img/hermanas/S_auxi.jpg"
-        },
-        {
-            "nombre": "Sor Maria Nela Solís",
-            "cargo": null,
-            "materia": "Religión 🙏🏻",
-            "foto": "../assets/img/hermanas/S_nela.jpg"
-        },
-        {
-            "nombre": "Sor Sonia López",
-            "cargo": "Hermana Vicaria",
-            "materia": null,
-            "foto": "../assets/img/hermanas/S_sonia.jpg"
-        },
-        {
-            "nombre": "Sor Lucila",
-            "cargo": null,
-            "materia": null,
-            "foto": "../assets/img/hermanas/S_lucila.jpg"
+            "nombre": "William Mendoza"
         }
     ]
 }
-
