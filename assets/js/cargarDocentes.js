@@ -12,8 +12,8 @@ window.onload = function cargarDocentes() {
                 console.log(docentes) 
                 // Create the HTML for the current level
                 let html = `
-                    <h4 class="text-center mt-5 mb-3">${nivelName}</h4>
-                    <div class="row gy-4 row-cols-2 row-cols-md-3">
+                    <h2 class="text-center mt-5 mb-3 py-5">${nivelName}</h2>
+                    <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
                 `;
                 // Loop through each docente in the current level
                 for (let i = 0; i < docentes.length; i++) {

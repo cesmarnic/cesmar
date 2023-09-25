@@ -74,13 +74,13 @@
             "cargo": "Coordinadora",
             "foto": "../assets/img/primaria/karla.jpg",
             "materia": null,
-            "nombre": "Lic. Karla Sanchez"
+            "nombre": "Lic. Karla Vanessa Sanchez"
         },
         {
             "cargo": "Maestra - 1° Grado A",
             "foto": "../assets/img/primaria/matha.jpg",
             "materia": null,
-            "nombre": "Matha Mejía"
+            "nombre": "Matha Christian Mejía"
         },
         {
             "cargo": "Maestra - 1° Grado B",
@@ -102,15 +102,15 @@
         },
         {
             "cargo": "Maestra - 3° Grado A",
-            "foto": ".../assets/img/primaria/verania.jpg",
+            "foto": "../assets/img/primaria/verania.jpg",
             "materia": null,
-            "nombre": "Verania Salgado"
+            "nombre": "Diega Verania Salgado"
         },
         {
             "cargo": "Maestra - 3° Grado B",
             "foto": "../assets/img/primaria/maritza.jpg",
             "materia": null,
-            "nombre": "Maritza Jirón"
+            "nombre": "Maritza Yahaira Jirón"
         },
         {
             "cargo": "Maestra - 4° Grado A",
@@ -140,7 +140,7 @@
             "cargo": "Maestra - 6° Grado A",
             "foto": "../assets/img/primaria/michell.jpg",
             "materia": null,
-            "nombre": "Michell Suarez"
+            "nombre": "Michell de los Ángeles Suarez"
         },
         {
             "cargo": "Maestra - 6° Grado B",
@@ -158,7 +158,7 @@
             "cargo": null,
             "foto": "../assets/img/primaria/roger.jpg",
             "materia": "Musica 🎼",
-            "nombre": "Roger Taylor"
+            "nombre": "Roger Guillén Taylor"
         }
     ],
     "Secundaria": [
@@ -166,31 +166,31 @@
             "cargo": "Guía - 7° Grado A",
             "foto": "../assets/img/secundaria/rosita.jpg",
             "materia": "Danza 🕺🏻",
-            "nombre": "Rosita Duarte"
+            "nombre": "Rosita María Duarte"
         },
         {
             "cargo": "Guía - 7° Grado B",
             "foto": "../assets/img/secundaria/reyna.jpg",
             "materia": "Lengua y Literatura 🔤",
-            "nombre": "Reyna Roblero"
+            "nombre": "Reyna del Socorro Roblero Vargas"
         },
         {
             "cargo": "Guía - 8°s Grado / Trabajadora Social",
             "foto": "../assets/img/secundaria/marlene.jpg",
             "materia": "Filosofía - Sociología 🤔",
-            "nombre": "Marlene Corea"
+            "nombre": "Marlene del Socorro Corea"
         },
         {
             "cargo": "Guía - 9° Grado A",
             "foto": "../assets/img/secundaria/maria.jpg",
             "materia": "Danza 🕺🏻",
-            "nombre": "Ma. José Hernandez"
+            "nombre": "Ma. José Hernandez Fariñas"
         },
         {
             "cargo": "Guía - 9° Grado B",
             "foto": "../assets/img/secundaria/edu.jpg",
             "materia": "Natación 🏊🏻‍♂️",
-            "nombre": "Edu Jarquín"
+            "nombre": "Edu Dyvari Jarquín Mendoza"
         },
         {
             "cargo": "Guía - 10° Grado A",
@@ -202,19 +202,19 @@
             "cargo": "Guía - 10° Grado B",
             "foto": "../assets/img/secundaria/jose.jpg",
             "materia": "Lengua y Literatura 🔤",
-            "nombre": "José Rizo"
+            "nombre": "José Alberto Rizo Pérez"
         },
         {
             "cargo": "Guía - 11° Grado A",
             "foto": "../assets/img/secundaria/aura.jpg",
             "materia": "Sociales / Historia 🗺",
-            "nombre": "Aura Rayo"
+            "nombre": "Aura Daniela Rayo Zamora"
         },
         {
             "cargo": "Guía - 11° Grado B",
             "foto": "../assets/img/secundaria/octavio.jpg",
             "materia": "Programacion 💻",
-            "nombre": "Octavio Morales"
+            "nombre": "Octavio Enrique Morales García"
         },
         {
             "cargo": null,
@@ -226,13 +226,19 @@
             "cargo": null,
             "foto": "../assets/img/secundaria/roberto.jpg",
             "materia": "Historia / Socailes 🗺",
-            "nombre": "Roberto Sirias"
+            "nombre": "Roberto Daniel Sirias Pérez"
         },
         {
             "cargo": null,
             "foto": "../assets/img/secundaria/luis.jpg",
             "materia": "Matemáticas 🧮",
-            "nombre": "Luis Martinez"
+            "nombre": "Luis Alberto Martinez"
+        },
+        {
+            "cargo": "Psicóloga",
+            "foto": "../assets/img/secundaria/daniela.jpg",
+            "materia": null,
+            "nombre": "Lic. Daniela"
         },
         {
             "cargo": null,
@@ -256,19 +262,19 @@
             "cargo": null,
             "foto": "../assets/img/secundaria/reymer.jpg",
             "materia": "Física / Ciencias 🔬",
-            "nombre": "Reymer Huembes"
+            "nombre": "Reymer Ariel Huembes"
         },
         {
             "cargo": null,
             "foto": "../assets/img/secundaria/ernesto.jpg",
             "materia": "Educación Física 🏃🏻‍♂️",
-            "nombre": "Ernesto Narváez"
+            "nombre": "Ernesto Argenis Narváez"
         },
         {
             "cargo": null,
             "foto": "../assets/img/secundaria/william.jpg",
             "materia": "Educación Física 🏃🏻‍♂️",
-            "nombre": "William Mendoza"
+            "nombre": "William José Mendoza"
         }
     ]
 }
