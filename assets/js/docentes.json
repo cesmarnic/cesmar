@@ -46,15 +46,15 @@
         },
         {
             "cargo": "Maestra - Aula A",
-            "foto": "../assets/img/preescolar/valeska.jpg",
-            "materia": null,
-            "nombre": "Valeska Castro Pérez"
-        },
-        {
-            "cargo": "Maestra - Aula B",
             "foto": "../assets/img/preescolar/daysi.jpg",
             "materia": null,
             "nombre": "Deysi Lisseth Montiel Mercado"
+        },
+        {
+            "cargo": "Maestra - Aula B",
+            "foto": "../assets/img/preescolar/valeska.jpg",
+            "materia": null,
+            "nombre": "Valeska Castro Pérez"
         },
         {
             "cargo": "Maestra - Aula C",
