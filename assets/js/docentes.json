@@ -42,31 +42,31 @@
             "cargo": "Coordinadora",
             "foto": "../assets/img/preescolar/fania.jpg",
             "materia": null,
-            "nombre": "Lic. Fania Ortiz"
+            "nombre": "Lic. Fania Raquel Ortiz Hernández"
         },
         {
             "cargo": "Maestra - Aula A",
             "foto": "../assets/img/preescolar/valeska.jpg",
             "materia": null,
-            "nombre": "Valeska Castro"
+            "nombre": "Valeska Castro Pérez"
         },
         {
             "cargo": "Maestra - Aula B",
             "foto": "../assets/img/preescolar/daysi.jpg",
             "materia": null,
-            "nombre": "Daysi Montiel"
+            "nombre": "Deysi Lisseth Montiel Mercado"
         },
         {
             "cargo": "Maestra - Aula C",
             "foto": "../assets/img/preescolar/arlen.jpg",
             "materia": null,
-            "nombre": "Arlen Zúñiga"
+            "nombre": "Arlen de Fátima Zúñiga Pacheco"
         },
         {
             "cargo": "Maestra - Aula D",
             "foto": "../assets/img/preescolar/tatiana.jpg",
             "materia": null,
-            "nombre": "Tatiana Serrano"
+            "nombre": "Tatiana Aurelia Serrano Palma"
         }
     ],
     "Primaria": [
@@ -80,43 +80,43 @@
             "cargo": "Maestra - 1° Grado A",
             "foto": "../assets/img/primaria/matha.jpg",
             "materia": null,
-            "nombre": "Matha Christian Mejía"
+            "nombre": "Martha Christian Mejía Hernández"
         },
         {
             "cargo": "Maestra - 1° Grado B",
             "foto": "../assets/img/primaria/maribel.jpg",
             "materia": null,
-            "nombre": "Maribel Rodriguez"
+            "nombre": "Maribel Rodriguez Gonzalez"
         },
         {
             "cargo": "Maestra - 2° Grado A",
             "foto": "../assets/img/primaria/mareling.jpg",
             "materia": null,
-            "nombre": "Mareling Saribel"
+            "nombre": "Marelyng Saribel Campos Saravia"
         },
         {
             "cargo": "Maestra - 2° Grado B",
             "foto": "../assets/img/primaria/andrea.jpg",
             "materia": null,
-            "nombre": "Andrea Reyes"
+            "nombre": "..."
         },
         {
             "cargo": "Maestra - 3° Grado A",
             "foto": "../assets/img/primaria/verania.jpg",
             "materia": null,
-            "nombre": "Diega Verania Salgado"
+            "nombre": "Diega Verania Salgado Pérez"
         },
         {
             "cargo": "Maestra - 3° Grado B",
             "foto": "../assets/img/primaria/maritza.jpg",
             "materia": null,
-            "nombre": "Maritza Yahaira Jirón"
+            "nombre": "Maritza Yahaira Jirón Poveda"
         },
         {
             "cargo": "Maestra - 4° Grado A",
             "foto": "../assets/img/primaria/zuleyka.jpg",
             "materia": null,
-            "nombre": "Zuleyka Talavera"
+            "nombre": "Zuleyka Cristabel Talavera Zamora"
         },
         {
             "cargo": "Maestra - 4° Grado B",
@@ -128,13 +128,13 @@
             "cargo": "Maestra - 5° Grado A",
             "foto": "../assets/img/primaria/ana.jpg",
             "materia": null,
-            "nombre": "Ana Maria Laguna"
+            "nombre": "Ana Maria Laguna Bonilla"
         },
         {
             "cargo": "Maestra - 5° Grado B",
             "foto": "../assets/img/primaria/diane.jpg",
             "materia": null,
-            "nombre": "Diane Espinoza"
+            "nombre": "Diane Michelle Espinoza"
         },
         {
             "cargo": "Maestra - 6° Grado A",
@@ -146,19 +146,19 @@
             "cargo": "Maestra - 6° Grado B",
             "foto": "../assets/img/primaria/vanessa.jpg",
             "materia": null,
-            "nombre": "Vanessa Gutiérrez"
+            "nombre": "Vanessa Auxiliadora Gutiérrez Guevara"
         },
         {
             "cargo": null,
             "foto": "../assets/img/primaria/anielka.jpg",
             "materia": "Computación 💻",
-            "nombre": "Anielka Zeledón"
+            "nombre": "Anielca María Zeledón Manzanarez"
         },
         {
             "cargo": null,
             "foto": "../assets/img/primaria/roger.jpg",
             "materia": "Musica 🎼",
-            "nombre": "Roger Guillén Taylor"
+            "nombre": "Roger Alberto Guillén Taylor"
         }
     ],
     "Secundaria": [
@@ -166,7 +166,7 @@
             "cargo": "Guía - 7° Grado A",
             "foto": "../assets/img/secundaria/rosita.jpg",
             "materia": "Danza 🕺🏻",
-            "nombre": "Rosita María Duarte"
+            "nombre": "Rosita María Duarte García"
         },
         {
             "cargo": "Guía - 7° Grado B",
@@ -178,7 +178,7 @@
             "cargo": "Guía - 8°s Grado / Trabajadora Social",
             "foto": "../assets/img/secundaria/marlene.jpg",
             "materia": "Filosofía - Sociología 🤔",
-            "nombre": "Marlene del Socorro Corea"
+            "nombre": "Marlene del Socorro Corea Solorzano"
         },
         {
             "cargo": "Guía - 9° Grado A",
@@ -195,8 +195,8 @@
         {
             "cargo": "Guía - 10° Grado A",
             "foto": "../assets/img/secundaria/johni.jpg",
-            "materia": "Quimica / Bioloia 🧪",
-            "nombre": "Johni Urbina"
+            "materia": "Química / Biología 🧪",
+            "nombre": "Johni Antonio Urbina Zeledón"
         },
         {
             "cargo": "Guía - 10° Grado B",
@@ -220,7 +220,7 @@
             "cargo": null,
             "foto": "../assets/img/secundaria/rodolfo.jpg",
             "materia": "Matemáticas 🧮",
-            "nombre": "Rodolfo Jimenez"
+            "nombre": "Rodolfo José Jimenez Maravilla"
         },
         {
             "cargo": null,
@@ -244,13 +244,13 @@
             "cargo": null,
             "foto": "../assets/img/secundaria/johan.jpg",
             "materia": "Inglés 🗽",
-            "nombre": "Johan Hurtado"
+            "nombre": "Johan Manuel Hurtado Castro"
         },
         {
             "cargo": null,
             "foto": "../assets/img/secundaria/ana.jpg",
             "materia": "Inglés 🗽",
-            "nombre": "Ana Carla Roa"
+            "nombre": "Ana Carla Roa Aguilera"
         },
         {
             "cargo": null,
@@ -262,19 +262,19 @@
             "cargo": null,
             "foto": "../assets/img/secundaria/reymer.jpg",
             "materia": "Física / Ciencias 🔬",
-            "nombre": "Reymer Ariel Huembes"
+            "nombre": "Reymer Ariel Huembes López"
         },
         {
             "cargo": null,
             "foto": "../assets/img/secundaria/ernesto.jpg",
             "materia": "Educación Física 🏃🏻‍♂️",
-            "nombre": "Ernesto Argenis Narváez"
+            "nombre": "Ernesto Argenis Narváez Villavicencio"
         },
         {
             "cargo": null,
             "foto": "../assets/img/secundaria/william.jpg",
             "materia": "Educación Física 🏃🏻‍♂️",
-            "nombre": "William José Mendoza"
+            "nombre": "William José Mendoza Reyes"
         }
     ]
 }
