@@ -2,7 +2,7 @@
 
 Somos una institución educativa que sigue los principios del **Sistema Preventivo de Don Bosco** bajo el lema de *Formando Buenos Cristianos y Honrados Ciudadanos*.  
   
-<img src="assets/img/Logo%20Espa%C3%B1ol-01.png" width="45%">
+<img src="assets/img/AADBanner.png" width="45%">
 
 Este repositorio tiene los archivos de la página web del colegio. Si eres estudiante del centro en el area de programación y estás por acá, eres libre de visualizar el código web.
 
