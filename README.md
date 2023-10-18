@@ -10,7 +10,7 @@ Este repositorio tiene los archivos de la página web del colegio. Si eres estud
 >
 > - 👨🏻‍💻 Elaborado por Octavio Enrique Morales García.
 > - 🏫 Elaborado para Centro Educativo Sor María Romero.
-> - 📁 Desarrollado en `HTML` y `CSS` con Boostrap v5.1
+> - 📁 Desarrollado en `HTML` y `CSS` con Boostrap
 > - 🗃️ Todos los archivos en este repositorio son propiedad del colegio.
 > - ❤️ Hecho con amor (Lovin Coding)
 
